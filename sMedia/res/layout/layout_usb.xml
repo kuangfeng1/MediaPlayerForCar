@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_src" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/usb" />
+
+    <Button
+        android:id="@+id/btn_src_usb_prev"
+        android:layout_width="62dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="333dp"
+        android:background="@drawable/btn_src_prev" />
+
+    <TextView
+        style="@style/TextViewTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/str_btn_usb" />
+
+    <Button
+        android:id="@+id/btn_src_usb_next"
+        android:layout_width="62dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="333dp"
+        android:background="@drawable/btn_src_next" />
+	
+    <TextView 
+        android:id="@+id/no_usb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewTheme"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="180dp"
+        android:visibility="gone"
+        android:text="请插入u盘"/>
+    <FrameLayout
+        android:id="@+id/usb_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="430dp"
+        android:layout_marginTop="135dp" >
+        <TextView
+            style="@style/TextViewTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:text="@string/str_media_type" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/line" />
+
+        <Button
+            android:id="@+id/usb_music"
+            style="@style/TextViewTheme"
+            android:layout_width="425dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/btn_text"
+            android:paddingLeft="-125dp"
+            android:text="@string/str_usb_music" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/line" />
+
+        <Button
+            android:id="@+id/usb_video"
+            style="@style/TextViewTheme"
+            android:layout_width="425dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/btn_text"
+            android:paddingLeft="-125dp"
+            android:text="@string/str_usb_video" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="155dp"
+            android:background="@drawable/line" />
+
+        <Button
+            android:id="@+id/usb_photo"
+            style="@style/TextViewTheme"
+            android:layout_width="425dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="155dp"
+            android:background="@drawable/btn_text"
+            android:paddingLeft="-125dp"
+            android:text="@string/str_usb_photo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/line" />
+    </FrameLayout>
+
+</FrameLayout>

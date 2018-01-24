@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_bk"
+     >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bt_music_bg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/btmusic_photo" />
+
+    <TextView
+        android:id="@+id/btmusic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="170dp"
+        android:singleLine="true"
+        android:text="@string/media_title"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/btmusic_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="220dp"
+        android:singleLine="true"
+        android:text="@string/media_artist"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/btmusic_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="270dp"
+        android:singleLine="true"
+        android:text="@string/media_album"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="994dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="475dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_btmusic_prev"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_music_prev"
+                android:text="@string/str_btn_music_prev" 
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_btmusic_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="-5dp"
+            android:background="@drawable/btn_music_play" />
+
+        <LinearLayout
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_btmusic_next"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_music_next"
+                android:text="@string/str_btn_music_next"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_btdevice"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_btdevice"
+                android:text="@string/str_btn_bt_device"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+     >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_src" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/local" />
+
+    <Button
+        android:id="@+id/btn_src_local_prev"
+        android:layout_width="62dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="333dp"
+        android:background="@drawable/btn_src_prev" />
+
+    <TextView
+        style="@style/TextViewTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/str_btn_local" />
+
+    <Button
+        android:id="@+id/btn_src_local_next"
+        android:layout_width="62dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="333dp"
+        android:background="@drawable/btn_src_next" />
+
+    <TextView
+        style="@style/TextViewTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="515dp"
+        android:layout_marginTop="135dp"
+        android:text="@string/str_media_type" />
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/line"
+	    android:layout_marginLeft="430dp"
+        android:layout_marginTop="180dp"
+	    />
+    <Button
+        android:id="@+id/local_music"
+        style="@style/TextViewTheme"
+        android:layout_width="425dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="430dp"
+        android:layout_marginTop="180dp"
+        android:paddingLeft="-125dp"
+        android:background="@drawable/btn_text"
+        android:text="@string/str_local_music" />
+	
+    <ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/line"
+	    android:layout_marginLeft="430dp"
+        android:layout_marginTop="235dp"
+	    />
+    <Button
+        android:id="@+id/local_video"
+        style="@style/TextViewTheme"
+        android:layout_width="425dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="430dp"
+        android:layout_marginTop="235dp"
+        android:paddingLeft="-125dp"
+        android:background="@drawable/btn_text"
+        android:text="@string/str_local_video" />
+    <ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/line"
+	    android:layout_marginLeft="430dp"
+        android:layout_marginTop="290dp"
+	    />
+	<Button
+	    android:id="@+id/local_photo"
+        style="@style/TextViewTheme"
+        android:layout_width="425dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="430dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/btn_text"
+        android:paddingLeft="-125dp"
+        android:text="@string/str_local_photo" />
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/line"
+	    android:layout_marginLeft="430dp"
+        android:layout_marginTop="345dp"
+	    />
+</FrameLayout>
+
+
+
+
+
+
+

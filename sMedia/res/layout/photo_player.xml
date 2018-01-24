@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:background="@drawable/setting_bk" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/music_bk" />
+
+    <ImageView
+        android:layout_width="201dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/pic_photo" />
+
+    <ImageView
+        android:id="@+id/pic_photo"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="469dp"
+        android:layout_marginTop="94dp"
+        android:background="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/pic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="630dp"
+        android:layout_marginTop="300dp"
+        android:singleLine="true"
+        android:text="曲目信息"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="994dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="425dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="65dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_photo_list"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_music_list"
+                android:text="@string/str_btn_photo_list"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_photo_prev"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_music_prev"
+                android:text="@string/str_btn_music_prev" 
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+		
+        <ImageButton 
+            android:id="@+id/btn_photo_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+			android:layout_marginTop="-5dp"
+            android:layout_gravity="center|top"
+            android:background="@drawable/btn_music_play"/>
+        <LinearLayout
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_photo_next"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_music_next"
+                android:text="@string/str_btn_music_next" 
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_photo_mode"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_music_circle"
+                android:text="@string/str_btn_music_mode"
+                android:layout_marginTop="5dp"  />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_btn_local">本地</string>
+    <string name="str_btn_usb">USB</string>
+    <string name="str_btn_aux">AUX</string>
+    
+    <string name="str_loading">數據載入中...</string>
+    <string name="str_btn_btmusic">藍牙音樂</string>
+    <string name="str_media_type">請選擇多媒體類型</string>
+    <string name="str_local_music">1.本地音樂</string>
+    <string name="str_local_video">2.本地視頻</string>
+    <string name="str_local_photo">3.本地圖片</string>
+    
+    <string name="str_usb_music">1.USB音樂</string>
+    <string name="str_usb_video">2.USB視頻</string>
+    <string name="str_usb_photo">3.USB圖片</string>
+    
+    <string name="str_btn_music_list">音樂列表</string>
+    <string name="str_btn_music_prev">上一曲</string>
+    <string name="str_btn_music_next">下一曲</string>
+    <string name="str_btn_music_mode">循環播放</string>
+    
+    <string name="str_btn_video_list">視頻列表</string>
+    <string name="str_btn_video_prev">上一曲</string>
+    <string name="str_btn_video_next">下一曲</string>
+    <string name="str_btn_video_mode">循環播放</string>
+    
+    <string name="str_btn_photo_list">圖片列表</string>
+    
+    
+    <string name="media_title">未知歌曲</string>
+    <string name="media_artist">未知藝術家</string>
+    <string name="media_album">未知專輯</string>
+    
+    <string name="str_btn_bt_device">藍牙設備</string>
+</resources>
