@@ -1,5 +1,5 @@
-bin
+/sMedia/bin
 .settings
 .classpath
 .project
-gen
+/sMedia/gen
